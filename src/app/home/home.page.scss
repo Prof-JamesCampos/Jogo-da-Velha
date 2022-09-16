@@ -1,27 +1,26 @@
-#container {
+ion-title {
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-card-subtitle {
+  text-align: center;
+  color: red;
+  font-weight: bold;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-card-title {
+  text-align: center;
+  color: greenyellow;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-#container a {
-  text-decoration: none;
+ion-col {
+  text-align: center;
+}
+
+ion-button {
+  --background: yellow;
+  --color: black;
+  text-align: center;
 }
